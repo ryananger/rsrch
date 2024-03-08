@@ -223,7 +223,7 @@ a {
   .resultsContainer,
   .dataContainer {
     width: 95svw;
-    height: 80svh;
+    height: 90svh;
   }
 
   .question {
@@ -246,5 +246,15 @@ a {
   .comorbid {
     min-width: 25%;
     margin: 1vh;
+  }
+
+  .buttons {
+    flex: auto;
+    max-height: 48px;
+  }
+
+  .results {
+    flex: auto;
+    height: unset;
   }
 }
