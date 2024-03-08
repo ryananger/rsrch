@@ -30,7 +30,7 @@ const App = function() {
     var newQuestions = [];
 
     for (var key in q) {
-      newAnswers[key] = [rand(5) + 1, rand(5) + 1, rand(5) + 1];
+      newAnswers[key] = [-1, -1, -1];
 
       q[key].map(function(entry, i) {
         allQuestions.push({section: key, num: i, text: entry});

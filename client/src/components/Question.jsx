@@ -12,6 +12,8 @@ const Question = function({question, answer, index}) {
   };
 
   var handleOption = function(num) {
+    if (st.submitted) {return};
+
     var newAnswers = {...st.answers};
 
     newAnswers[question.section][question.num] = num;
