@@ -4,7 +4,7 @@ import {IoArrowForwardCircle as NextIcon,
 
 import 'styles';
 import st from 'ryscott-st';
-import {ax, helpers} from 'util';
+import {ax} from 'util';
 
 import Intro from './Intro.jsx';
 import Question from './Question.jsx';

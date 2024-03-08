@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {IoArrowForwardCircle as NextIcon,
-  IoArrowBackCircle as BackIcon} from 'react-icons/io5';
+        IoArrowBackCircle as BackIcon} from 'react-icons/io5';
 
 import st from 'ryscott-st';
 import {ax} from 'util';
