@@ -1,0 +1,250 @@
+.main {
+  width: 100%;
+  height: calc(100svh - 48px);
+}
+
+.question {
+  background-color: white;
+  width: 540px;
+  aspect-ratio: 1.5;
+  border-radius: 12px;
+  box-shadow: var(--cardShadow);
+  padding: 2vh;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.selfIDButtons {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.selfIDoption {
+  width: 60%;
+  align-items: center;
+  border: 1px solid #3b5f8052;
+  border-radius: 12px;
+  padding: 1vh;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+.comorbids {
+  height: 120px;
+  justify-content: space-around;
+}
+
+.comorbidButtons {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+  width: 90%;
+}
+
+.comorbid {
+  padding: 1vh;
+  border: 1px solid #3b5f8052;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin: 0.5vh;
+  min-width: 20%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.comorbidOn {
+  background-color: var(--color1);
+  color: white;
+}
+
+.comorbid:hover {
+  border: 1px solid #3b5f8083;
+}
+
+.progress {
+  width: 100%;
+}
+
+.progressCircle {
+  width: 8px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  border: 1px solid #3b5f806e;
+}
+
+.questionBody {
+  width: 90%;
+}
+
+.questionText {
+  height: 160px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.buttons {
+  width: 100%;
+  height: 48px;
+  align-items: end;
+  flex: none;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.disabled {
+  color: #3b5f8052;
+}
+
+.radialButtons {
+  width: 280px;
+  margin: 2vh;
+  align-items: center;
+}
+
+.radialButton {
+  width: 32px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 3px solid var(--color1);
+  cursor: pointer;
+}
+
+.rSmall {
+  width: 24px;
+}
+
+.radialOn {
+  background-color: var(--color1);
+}
+
+.optionTag {
+  position: absolute;
+  bottom: -28px;
+  width: 120px;
+  font-size: 14px;
+  user-select: none;
+}
+
+.submitButton {
+  background: var(--color1);
+  color: white;
+  padding: 0 12px;
+  border-radius: 50px;
+  height: 32.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.resultsContainer,
+.dataContainer {
+  background-color: white;
+  width: 540px;
+  height: 80vh;
+  border-radius: 12px;
+  box-shadow: var(--cardShadow);
+  padding: 2vh;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.results {
+  width: 100%;
+  height: 280px;
+  margin-top: 2vh;
+  justify-content: space-between;
+}
+
+.result {
+  width: 100%;
+  font-family: Noto Sans;
+}
+
+.total {
+  border-top: 2px solid;
+  padding-top: 1vh;
+}
+
+.averageScores {
+  width: 100%;
+  margin: 2vh 0;
+  padding: 2vh 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.averageScore {
+  width: 100%;
+}
+
+.dataContainer {
+  justify-content: flex-start;
+  height: unset;
+}
+
+.data {
+  margin: 1vh;
+}
+
+.data,
+.dataInfo {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+th {
+  font-size: 14px;
+}
+
+.tableRight {
+  text-align: right;
+  width: 80px;
+}
+
+.autismInfo {
+  width: 180px;
+}
+
+a {
+  color: var(--color1);
+}
+
+@media (max-width: 1000px) {
+  .question,
+  .resultsContainer,
+  .dataContainer {
+    width: 95svw;
+    height: 80svh;
+  }
+
+  .question {
+    height: 60svh;
+    font-size: 1.2em;
+  }
+
+  .selfIDoption {
+    width: 90%;
+  }
+
+  .comorbids {
+    height: unset;
+  }
+
+  .comorbidButtons {
+    margin: 4vh;
+  }
+
+  .comorbid {
+    min-width: 25%;
+    margin: 1vh;
+  }
+}
