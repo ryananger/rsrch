@@ -57,7 +57,7 @@ const Results = function(props) {
       <div className='averageScores v'>
         <div className='averageScore h'>Average* for autistic people: <b>{y}</b></div>
         <div className='averageScore h'>Average* for non-autistic people: <b>{n}</b></div>
-        <small className='averageScore h' style={{marginTop: '1vh'}}>*based on {r} submissions.</small>
+        {/* <small className='averageScore h' style={{marginTop: '1vh'}}>*based on {r} submissions.</small> */}
       </div>
     )
   };
