@@ -38,7 +38,7 @@ const App = function() {
     }
 
     while (newQuestions.length < 21) {
-      var num = helpers.rand(allQuestions.length);
+      var num = rand(allQuestions.length);
 
       var front = allQuestions.slice(0, num);
       var back  = allQuestions.slice(num + 1);
